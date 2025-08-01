@@ -9,21 +9,21 @@ function App() {
   const galaxyRef = useRef(null);
 
   const toggleNav = () => {
-    const audio = new Audio("/sounds/menu-move.mp3");
+    const audio = new Audio(`${process.env.PUBLIC_URL}/sounds/menu-move.mp3`);
     audio.volume = 0.3;
     audio.play();
     setNavOpen(true);
   };
 
   const onNavClick = () => {
-    const audio = new Audio("/sounds/limit-break.mp3");
+    const audio = new Audio(`${process.env.PUBLIC_URL}/sounds/menu-move.mp3`);
     audio.volume = 0.3;
     audio.play();
     setNavOpen(false);
   };
 
   const onDownloadClick = () => {
-    const audio = new Audio("/sounds/something-earned.mp3");
+    const audio = new Audio(`${process.env.PUBLIC_URL}/sounds/menu-move.mp3`);
     audio.volume = 0.3;
     audio.play();
   };
@@ -156,7 +156,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src="/images/HandPointer.png"
+                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
                       alt="Preview"
                     />
                   </div>
@@ -172,7 +172,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src="/images/HandPointer.png"
+                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
                       alt="Preview"
                     />
                   </div>
@@ -188,7 +188,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src="/images/HandPointer.png"
+                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
                       alt="Preview"
                     />
                   </div>
@@ -207,7 +207,7 @@ function App() {
                     </button>
                     <img
                       className="nav-hover-image"
-                      src="/images/HandPointer.png"
+                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
                       alt="Preview"
                     />
                   </div>
@@ -224,7 +224,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src="/images/HandPointer.png"
+                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
                       alt="Preview"
                     />
                   </div>
