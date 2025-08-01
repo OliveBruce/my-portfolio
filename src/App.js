@@ -218,7 +218,7 @@ function App() {
                   <div className="nav-hover-container">
                     <a
                       className="nav-link-hover nav-download"
-                      href="/OliviaBruceResume.pdf"
+                      href={`${process.env.PUBLIC_URL}/OliviaBruceResume.pdf`}
                       onClick={onDownloadClick}
                       download={true}
                     >
