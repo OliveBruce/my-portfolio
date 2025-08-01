@@ -8,6 +8,8 @@ function App() {
   const starBgRef = useRef(null);
   const galaxyRef = useRef(null);
 
+  const handPointer = `${process.env.PUBLIC_URL}/images/HandPointer.png`;
+
   const toggleNav = () => {
     const audio = new Audio(`${process.env.PUBLIC_URL}/sounds/menu-move.mp3`);
     audio.volume = 0.3;
@@ -156,7 +158,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
+                      src={handPointer}
                       alt="Preview"
                     />
                   </div>
@@ -172,7 +174,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
+                      src={handPointer}
                       alt="Preview"
                     />
                   </div>
@@ -188,7 +190,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
+                      src={handPointer}
                       alt="Preview"
                     />
                   </div>
@@ -207,7 +209,7 @@ function App() {
                     </button>
                     <img
                       className="nav-hover-image"
-                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
+                      src={handPointer}
                       alt="Preview"
                     />
                   </div>
@@ -224,7 +226,7 @@ function App() {
                     </a>
                     <img
                       className="nav-hover-image"
-                      src={`${process.env.PUBLIC_URL}/images/HandPointer.png`}
+                      src={handPointer}
                       alt="Preview"
                     />
                   </div>
