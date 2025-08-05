@@ -1,0 +1,26 @@
+.contact-form .submit {
+  background: linear-gradient(135deg, #61fb73 0%, #3b50b6 100%);
+  border: none;
+  border-radius: 10px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 16px;
+  color: white;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form .submit:hover {
+  background: linear-gradient(135deg, #3b50b6 0%, #61fb73 100%);
+  box-shadow: 0 0 10px #61fb73, 0 0 20px #3b50b6;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 8px;
+}

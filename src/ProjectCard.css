@@ -1,0 +1,60 @@
+.project-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.project-img-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.project-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 16px #61fb73;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-title {
+  font-family: "Press Start 2P", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.project-description-container {
+  margin-left: 20px;
+  font-family: "Reddit Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 500px;
+  width: 100%;
+}
+
+.project-description {
+  font-family: "Reddit Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 20px;
+}
