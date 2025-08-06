@@ -58,3 +58,26 @@
   color: #ffffff;
   margin-left: 20px;
 }
+
+@media (max-width: 480px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-img-title-container {
+    margin-bottom: 10px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-description-container {
+    margin-left: 0;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+}
