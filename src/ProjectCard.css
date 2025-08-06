@@ -59,6 +59,35 @@
   margin-left: 20px;
 }
 
+@media (max-width: 640px) {
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-img-title-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+
+  .project-title {
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .project-description-container {
+    margin-left: 0;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 480px) {
   .project-card {
     flex-direction: column;
